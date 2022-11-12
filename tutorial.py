@@ -8,7 +8,6 @@ neurons take in inputs, multiply them by respective weights, add bias, and produ
 x1 --> x1*w1; x2 --> x2*w2; b
 y = f(x1*w1 + x2*w2 + b)
 '''
-
 def sigmoid(x):
     # neuron activation function
     return 1 / (1 + np.exp(-x))
